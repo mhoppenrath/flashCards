@@ -1,0 +1,22 @@
+{
+  "name": "flashpackage",
+  "version": "1.0.0",
+  "description": "Flash careds are the package",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhoppenrath/flashCards.git"
+  },
+  "author": "Mike Hopp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhoppenrath/flashCards/issues"
+  },
+  "homepage": "https://github.com/mhoppenrath/flashCards#readme",
+  "dependencies": {
+    "inquirer": "*",
+  }
+}
