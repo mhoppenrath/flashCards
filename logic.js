@@ -97,9 +97,7 @@ function practice() {
 
 //this handles going through the array and then which kind of card it is
 function runArray() {
-  console.log("you have cards to practice with")
   for (var i = 0; i < cards.length; i++) {
-    console.log(cards[i]);
     if (cards[i].type = "basic"){
      basicCardPractice(cards[i]);
     }
@@ -107,7 +105,6 @@ function runArray() {
      clozeCardsPractice(cards[i]);
    }
   }
-  startAgain();
 }
 
 //practice for the basic cards
